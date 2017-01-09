@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>再见孙悟空</title>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="./css/loaders.css.min.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <style type="text/css">
+    #loadingBox {
+        position: absolute;
+        width: 100px;
+        border-radius: 5px;
+        padding: 30px;
+        margin-left: -80px;
+        height: 50px;
+        margin-top: -55px;
+        left: 50%;
+        top: 50%;
+        background: rgba(0, 0, 0, 0.5);
+    }
+    </style>
+    <script>
+        window.canvasBaiduMap = window.canvasBaiduMap || {};
+    </script>
+</head>
+
+<body>
+    <div id="map" class="map"></div>
+    <div id="nav-bar">
+        <div class="nav-bar-title"> 评估师OD分析平台</div>
+    </div>
+    <div id="loadingBox" style="">
+        <div class="loader-inner pacman">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <script type="text/javascript" src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=1XjLLEhZhQNUzd93EjU5nOGQ"></script>
+    <script type="text/javascript" src="./src/MapMask.js"></script>
+    <script type="text/javascript" src="./src/index.js"></script>
+</body>
+</html>

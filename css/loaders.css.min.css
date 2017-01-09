@@ -1,0 +1,2350 @@
+/**
+ *
+ * All animations must live in their own file
+ * in the animations directory and be included
+ * here.
+ *
+ */
+/**
+ * Styles shared by multiple animations
+ */
+/**
+ * Dots
+ */
+@-webkit-keyframes scale {
+  /* line 15, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1; }
+
+  /* line 20, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  45% {
+    -webkit-transform: scale(0.1);
+    transform: scale(0.1);
+    opacity: 0.7; }
+
+  /* line 25, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  80% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1; } }
+
+@keyframes scale {
+  /* line 30, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1; }
+
+  /* line 35, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  45% {
+    -webkit-transform: scale(0.1);
+    transform: scale(0.1);
+    opacity: 0.7; }
+
+  /* line 40, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  80% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1; } }
+
+/* line 45, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-pulse > div:nth-child(0) {
+  -webkit-animation: scale 0.75s 0s infinite cubic-bezier(.2, .68, .18, 1.08);
+  animation: scale 0.75s 0s infinite cubic-bezier(.2, .68, .18, 1.08); }
+
+/* line 48, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-pulse > div:nth-child(1) {
+  -webkit-animation: scale 0.75s 0.12s infinite cubic-bezier(.2, .68, .18, 1.08);
+  animation: scale 0.75s 0.12s infinite cubic-bezier(.2, .68, .18, 1.08); }
+
+/* line 51, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-pulse > div:nth-child(2) {
+  -webkit-animation: scale 0.75s 0.24s infinite cubic-bezier(.2, .68, .18, 1.08);
+  animation: scale 0.75s 0.24s infinite cubic-bezier(.2, .68, .18, 1.08); }
+
+/* line 54, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-pulse > div:nth-child(3) {
+  -webkit-animation: scale 0.75s 0.36s infinite cubic-bezier(.2, .68, .18, 1.08);
+  animation: scale 0.75s 0.36s infinite cubic-bezier(.2, .68, .18, 1.08); }
+
+/* line 57, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-pulse > div {
+  background-color: #fff;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  margin: 2px;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  display: inline-block; }
+
+@-webkit-keyframes ball-pulse-sync {
+  /* line 68, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  33% {
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px); }
+
+  /* line 72, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  66% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px); }
+
+  /* line 76, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); } }
+
+@keyframes ball-pulse-sync {
+  /* line 81, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  33% {
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px); }
+
+  /* line 85, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  66% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px); }
+
+  /* line 89, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); } }
+
+/* line 93, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-pulse-sync > div:nth-child(0) {
+  -webkit-animation: ball-pulse-sync 0.6s 0s infinite ease-in-out;
+  animation: ball-pulse-sync 0.6s 0s infinite ease-in-out; }
+
+/* line 96, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-pulse-sync > div:nth-child(1) {
+  -webkit-animation: ball-pulse-sync 0.6s 0.07s infinite ease-in-out;
+  animation: ball-pulse-sync 0.6s 0.07s infinite ease-in-out; }
+
+/* line 99, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-pulse-sync > div:nth-child(2) {
+  -webkit-animation: ball-pulse-sync 0.6s 0.14s infinite ease-in-out;
+  animation: ball-pulse-sync 0.6s 0.14s infinite ease-in-out; }
+
+/* line 102, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-pulse-sync > div:nth-child(3) {
+  -webkit-animation: ball-pulse-sync 0.6s 0.21s infinite ease-in-out;
+  animation: ball-pulse-sync 0.6s 0.21s infinite ease-in-out; }
+
+/* line 105, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-pulse-sync > div {
+  background-color: #fff;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  margin: 2px;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  display: inline-block; }
+
+@-webkit-keyframes ball-scale {
+  /* line 116, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0); }
+
+  /* line 120, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0; } }
+
+@keyframes ball-scale {
+  /* line 126, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0); }
+
+  /* line 130, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0; } }
+
+/* line 135, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-scale > div {
+  background-color: #fff;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  margin: 2px;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  -webkit-animation: ball-scale 1s 0s ease-in-out infinite;
+  animation: ball-scale 1s 0s ease-in-out infinite; }
+
+@-webkit-keyframes rotate {
+  /* line 150, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 154, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  50% {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg); }
+
+  /* line 158, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@keyframes rotate {
+  /* line 163, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 167, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  50% {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg); }
+
+  /* line 171, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+/* line 175, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-rotate {
+  position: relative; }
+
+/* line 177, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-rotate > div {
+  background-color: #fff;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  margin: 2px;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  position: relative; }
+
+/* line 186, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-rotate > div:first-child {
+  -webkit-animation: rotate 1s 0s cubic-bezier(.7, -.13, .22, .86) infinite;
+  animation: rotate 1s 0s cubic-bezier(.7, -.13, .22, .86) infinite; }
+
+/* line 189, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-rotate > div:before, .ball-rotate > div:after {
+  background-color: #fff;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  margin: 2px;
+  content: "";
+  position: absolute;
+  opacity: 0.8; }
+
+/* line 198, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-rotate > div:before {
+  top: 0px;
+  left: -28px; }
+
+/* line 201, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-rotate > div:after {
+  top: 0px;
+  left: 25px; }
+
+@keyframes rotate {
+  /* line 206, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  0% {
+    -webkit-transform: rotate(0deg) scale(1);
+    transform: rotate(0deg) scale(1); }
+
+  /* line 210, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  50% {
+    -webkit-transform: rotate(180deg) scale(0.6);
+    transform: rotate(180deg) scale(0.6); }
+
+  /* line 214, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    -webkit-transform: rotate(360deg) scale(1);
+    transform: rotate(360deg) scale(1); } }
+
+/* line 218, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-clip-rotate > div {
+  background-color: #fff;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  margin: 2px;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  border: 2px solid #fff;
+  border-bottom-color: transparent;
+  height: 25px;
+  width: 25px;
+  background: transparent !important;
+  display: inline-block;
+  -webkit-animation: rotate 0.75s 0s linear infinite;
+  animation: rotate 0.75s 0s linear infinite; }
+
+@keyframes rotate {
+  /* line 236, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  0% {
+    -webkit-transform: rotate(0deg) scale(1);
+    transform: rotate(0deg) scale(1); }
+
+  /* line 240, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  50% {
+    -webkit-transform: rotate(180deg) scale(0.6);
+    transform: rotate(180deg) scale(0.6); }
+
+  /* line 244, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    -webkit-transform: rotate(360deg) scale(1);
+    transform: rotate(360deg) scale(1); } }
+
+@keyframes scale {
+  /* line 249, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  30% {
+    -webkit-transform: scale(0.3);
+    transform: scale(0.3); }
+
+  /* line 253, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+
+/* line 257, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-clip-rotate-pulse {
+  position: relative;
+  -webkit-transform: translateY(-15px);
+  -ms-transform: translateY(-15px);
+  transform: translateY(-15px); }
+
+/* line 262, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-clip-rotate-pulse > div {
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 100%; }
+
+/* line 269, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-clip-rotate-pulse > div:first-child {
+  background: #fff;
+  height: 16px;
+  width: 16px;
+  top: 9px;
+  left: 9px;
+  -webkit-animation: scale 1s 0s cubic-bezier(.09, .57, .49, .9) infinite;
+  animation: scale 1s 0s cubic-bezier(.09, .57, .49, .9) infinite; }
+
+/* line 277, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-clip-rotate-pulse > div:last-child {
+  position: absolute;
+  border: 2px solid #fff;
+  width: 30px;
+  height: 30px;
+  background: transparent;
+  border: 2px solid;
+  border-color: #fff transparent #fff transparent;
+  -webkit-animation: rotate 1s 0s cubic-bezier(.09, .57, .49, .9) infinite;
+  animation: rotate 1s 0s cubic-bezier(.09, .57, .49, .9) infinite;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s; }
+
+@keyframes rotate {
+  /* line 291, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  0% {
+    -webkit-transform: rotate(0deg) scale(1);
+    transform: rotate(0deg) scale(1); }
+
+  /* line 295, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  50% {
+    -webkit-transform: rotate(180deg) scale(0.6);
+    transform: rotate(180deg) scale(0.6); }
+
+  /* line 299, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    -webkit-transform: rotate(360deg) scale(1);
+    transform: rotate(360deg) scale(1); } }
+
+/* line 303, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-clip-rotate-multiple {
+  position: relative; }
+
+/* line 305, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-clip-rotate-multiple > div {
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  border: 2px solid #fff;
+  border-bottom-color: transparent;
+  border-top-color: transparent;
+  border-radius: 100%;
+  height: 35px;
+  width: 35px;
+  -webkit-animation: rotate 1s 0s ease-in-out infinite;
+  animation: rotate 1s 0s ease-in-out infinite; }
+
+/* line 319, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-clip-rotate-multiple > div:last-child {
+  display: inline-block;
+  top: 10px;
+  left: 10px;
+  width: 15px;
+  height: 15px;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  border-color: #fff transparent #fff transparent;
+  -webkit-animation-direction: reverse;
+  animation-direction: reverse; }
+
+@-webkit-keyframes ball-scale-ripple {
+  /* line 332, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  0% {
+    -webkit-transform: scale(0.1);
+    transform: scale(0.1);
+    opacity: 1; }
+
+  /* line 337, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  70% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0.7; }
+
+  /* line 342, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    opacity: 0.0; } }
+
+@keyframes ball-scale-ripple {
+  /* line 346, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  0% {
+    -webkit-transform: scale(0.1);
+    transform: scale(0.1);
+    opacity: 1; }
+
+  /* line 351, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  70% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0.7; }
+
+  /* line 356, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    opacity: 0.0; } }
+
+/* line 359, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-scale-ripple > div {
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  border: 2px solid #fff;
+  -webkit-animation: ball-scale-ripple 1s 0s infinite cubic-bezier(.21, .53, .56, .8);
+  animation: ball-scale-ripple 1s 0s infinite cubic-bezier(.21, .53, .56, .8); }
+
+@-webkit-keyframes ball-scale-ripple-multiple {
+  /* line 370, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  0% {
+    -webkit-transform: scale(0.1);
+    transform: scale(0.1);
+    opacity: 1; }
+
+  /* line 375, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  70% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0.7; }
+
+  /* line 380, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    opacity: 0.0; } }
+
+@keyframes ball-scale-ripple-multiple {
+  /* line 384, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  0% {
+    -webkit-transform: scale(0.1);
+    transform: scale(0.1);
+    opacity: 1; }
+
+  /* line 389, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  70% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0.7; }
+
+  /* line 394, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    opacity: 0.0; } }
+
+/* line 397, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-scale-ripple-multiple {
+  position: relative;
+  -webkit-transform: translateY(-25px);
+  -ms-transform: translateY(-25px);
+  transform: translateY(-25px); }
+
+/* line 402, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-scale-ripple-multiple > div:nth-child(0) {
+  -webkit-animation-delay: -0.2s;
+  animation-delay: -0.2s; }
+
+/* line 405, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-scale-ripple-multiple > div:nth-child(1) {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s; }
+
+/* line 408, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-scale-ripple-multiple > div:nth-child(2) {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s; }
+
+/* line 411, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-scale-ripple-multiple > div:nth-child(3) {
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s; }
+
+/* line 414, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-scale-ripple-multiple > div {
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border: 2px solid #fff;
+  -webkit-animation: ball-scale-ripple-multiple 1.25s 0s infinite cubic-bezier(.21, .53, .56, .8);
+  animation: ball-scale-ripple-multiple 1.25s 0s infinite cubic-bezier(.21, .53, .56, .8); }
+
+@-webkit-keyframes ball-beat {
+  /* line 428, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  50% {
+    opacity: 0.2;
+    -webkit-transform: scale(0.75);
+    transform: scale(0.75); }
+
+  /* line 433, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+
+@keyframes ball-beat {
+  /* line 439, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  50% {
+    opacity: 0.2;
+    -webkit-transform: scale(0.75);
+    transform: scale(0.75); }
+
+  /* line 444, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+
+/* line 449, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-beat > div {
+  background-color: #fff;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  margin: 2px;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  display: inline-block;
+  -webkit-animation: ball-beat 0.7s 0s infinite linear;
+  animation: ball-beat 0.7s 0s infinite linear; }
+
+/* line 460, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-beat > div:nth-child(2n-1) {
+  -webkit-animation-delay: 0.35s !important;
+  animation-delay: 0.35s !important; }
+
+@-webkit-keyframes ball-scale-multiple {
+  /* line 465, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 0; }
+
+  /* line 470, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  5% {
+    opacity: 1; }
+
+  /* line 473, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0; } }
+
+@keyframes ball-scale-multiple {
+  /* line 479, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 0; }
+
+  /* line 484, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  5% {
+    opacity: 1; }
+
+  /* line 487, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0; } }
+
+/* line 492, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-scale-multiple {
+  position: relative;
+  -webkit-transform: translateY(-30px);
+  -ms-transform: translateY(-30px);
+  transform: translateY(-30px); }
+
+/* line 497, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-scale-multiple > div:nth-child(2) {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s; }
+
+/* line 500, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-scale-multiple > div:nth-child(3) {
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s; }
+
+/* line 503, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-scale-multiple > div {
+  background-color: #fff;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  margin: 2px;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+  margin: 0;
+  width: 60px;
+  height: 60px;
+  -webkit-animation: ball-scale-multiple 1s 0s linear infinite;
+  animation: ball-scale-multiple 1s 0s linear infinite; }
+
+@-webkit-keyframes ball-triangle-path-1 {
+  /* line 522, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  33% {
+    -webkit-transform: translate(25px, -50px);
+    transform: translate(25px, -50px); }
+
+  /* line 526, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  66% {
+    -webkit-transform: translate(50px, 0px);
+    transform: translate(50px, 0px); }
+
+  /* line 530, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    -webkit-transform: translate(0px, 0px);
+    transform: translate(0px, 0px); } }
+
+@keyframes ball-triangle-path-1 {
+  /* line 535, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  33% {
+    -webkit-transform: translate(25px, -50px);
+    transform: translate(25px, -50px); }
+
+  /* line 539, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  66% {
+    -webkit-transform: translate(50px, 0px);
+    transform: translate(50px, 0px); }
+
+  /* line 543, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    -webkit-transform: translate(0px, 0px);
+    transform: translate(0px, 0px); } }
+
+@-webkit-keyframes ball-triangle-path-2 {
+  /* line 548, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  33% {
+    -webkit-transform: translate(25px, 50px);
+    transform: translate(25px, 50px); }
+
+  /* line 552, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  66% {
+    -webkit-transform: translate(-25px, 50px);
+    transform: translate(-25px, 50px); }
+
+  /* line 556, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    -webkit-transform: translate(0px, 0px);
+    transform: translate(0px, 0px); } }
+
+@keyframes ball-triangle-path-2 {
+  /* line 561, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  33% {
+    -webkit-transform: translate(25px, 50px);
+    transform: translate(25px, 50px); }
+
+  /* line 565, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  66% {
+    -webkit-transform: translate(-25px, 50px);
+    transform: translate(-25px, 50px); }
+
+  /* line 569, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    -webkit-transform: translate(0px, 0px);
+    transform: translate(0px, 0px); } }
+
+@-webkit-keyframes ball-triangle-path-3 {
+  /* line 574, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  33% {
+    -webkit-transform: translate(-50px, 0px);
+    transform: translate(-50px, 0px); }
+
+  /* line 578, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  66% {
+    -webkit-transform: translate(-25px, -50px);
+    transform: translate(-25px, -50px); }
+
+  /* line 582, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    -webkit-transform: translate(0px, 0px);
+    transform: translate(0px, 0px); } }
+
+@keyframes ball-triangle-path-3 {
+  /* line 587, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  33% {
+    -webkit-transform: translate(-50px, 0px);
+    transform: translate(-50px, 0px); }
+
+  /* line 591, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  66% {
+    -webkit-transform: translate(-25px, -50px);
+    transform: translate(-25px, -50px); }
+
+  /* line 595, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    -webkit-transform: translate(0px, 0px);
+    transform: translate(0px, 0px); } }
+
+/* line 599, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-triangle-path {
+  position: relative;
+  -webkit-transform: translate(-25px, -25px);
+  -ms-transform: translate(-25px, -25px);
+  transform: translate(-25px, -25px); }
+
+/* line 604, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-triangle-path > div:nth-child(1) {
+  -webkit-animation-name: ball-triangle-path-1;
+  animation-name: ball-triangle-path-1;
+  -webkit-animation-delay: 0;
+  animation-delay: 0;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite; }
+
+/* line 615, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-triangle-path > div:nth-child(2) {
+  -webkit-animation-name: ball-triangle-path-2;
+  animation-name: ball-triangle-path-2;
+  -webkit-animation-delay: 0;
+  animation-delay: 0;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite; }
+
+/* line 626, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-triangle-path > div:nth-child(3) {
+  -webkit-animation-name: ball-triangle-path-3;
+  animation-name: ball-triangle-path-3;
+  -webkit-animation-delay: 0;
+  animation-delay: 0;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite; }
+
+/* line 637, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-triangle-path > div {
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  border: 1px solid #fff; }
+
+/* line 645, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-triangle-path > div:nth-of-type(1) {
+  top: 50px; }
+
+/* line 647, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-triangle-path > div:nth-of-type(2) {
+  left: 25px; }
+
+/* line 649, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-triangle-path > div:nth-of-type(3) {
+  top: 50px;
+  left: 50px; }
+
+@-webkit-keyframes ball-pulse-rise-even {
+  /* line 654, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  0% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); }
+
+  /* line 658, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  25% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px); }
+
+  /* line 662, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  50% {
+    -webkit-transform: scale(0.4);
+    transform: scale(0.4); }
+
+  /* line 666, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  75% {
+    -webkit-transform: translateY(30px);
+    transform: translateY(30px); }
+
+  /* line 670, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+
+@keyframes ball-pulse-rise-even {
+  /* line 677, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  0% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); }
+
+  /* line 681, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  25% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px); }
+
+  /* line 685, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  50% {
+    -webkit-transform: scale(0.4);
+    transform: scale(0.4); }
+
+  /* line 689, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  75% {
+    -webkit-transform: translateY(30px);
+    transform: translateY(30px); }
+
+  /* line 693, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+
+@-webkit-keyframes ball-pulse-rise-odd {
+  /* line 700, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  0% {
+    -webkit-transform: scale(0.4);
+    transform: scale(0.4); }
+
+  /* line 704, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  25% {
+    -webkit-transform: translateY(30px);
+    transform: translateY(30px); }
+
+  /* line 708, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  50% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); }
+
+  /* line 712, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  75% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px); }
+
+  /* line 716, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transform: scale(0.75);
+    transform: scale(0.75); } }
+
+@keyframes ball-pulse-rise-odd {
+  /* line 723, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  0% {
+    -webkit-transform: scale(0.4);
+    transform: scale(0.4); }
+
+  /* line 727, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  25% {
+    -webkit-transform: translateY(30px);
+    transform: translateY(30px); }
+
+  /* line 731, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  50% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); }
+
+  /* line 735, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  75% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px); }
+
+  /* line 739, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transform: scale(0.75);
+    transform: scale(0.75); } }
+
+/* line 745, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-pulse-rise > div {
+  background-color: #fff;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  margin: 2px;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  display: inline-block;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: cubic-bezier(.15, .46, .9, .6);
+  animation-timing-function: cubic-bezier(.15, .46, .9, .6);
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-delay: 0;
+  animation-delay: 0; }
+
+/* line 762, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-pulse-rise > div:nth-child(2n) {
+  -webkit-animation-name: ball-pulse-rise-even;
+  animation-name: ball-pulse-rise-even; }
+
+/* line 765, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-pulse-rise > div:nth-child(2n-1) {
+  -webkit-animation-name: ball-pulse-rise-odd;
+  animation-name: ball-pulse-rise-odd; }
+
+@-webkit-keyframes ball-grid-beat {
+  /* line 770, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  50% {
+    opacity: 0.7; }
+
+  /* line 773, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    opacity: 1; } }
+
+@keyframes ball-grid-beat {
+  /* line 777, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  50% {
+    opacity: 0.7; }
+
+  /* line 780, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    opacity: 1; } }
+
+/* line 783, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-grid-beat {
+  width: 57px; }
+
+/* line 785, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-grid-beat > div:nth-child(1) {
+  -webkit-animation-delay: 0.36s;
+  animation-delay: 0.36s;
+  -webkit-animation-duration: 0.96s;
+  animation-duration: 0.96s; }
+
+/* line 790, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-grid-beat > div:nth-child(2) {
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+  -webkit-animation-duration: 0.93s;
+  animation-duration: 0.93s; }
+
+/* line 795, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-grid-beat > div:nth-child(3) {
+  -webkit-animation-delay: 0.68s;
+  animation-delay: 0.68s;
+  -webkit-animation-duration: 1.19s;
+  animation-duration: 1.19s; }
+
+/* line 800, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-grid-beat > div:nth-child(4) {
+  -webkit-animation-delay: 0.41s;
+  animation-delay: 0.41s;
+  -webkit-animation-duration: 1.13s;
+  animation-duration: 1.13s; }
+
+/* line 805, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-grid-beat > div:nth-child(5) {
+  -webkit-animation-delay: 0.71s;
+  animation-delay: 0.71s;
+  -webkit-animation-duration: 1.34s;
+  animation-duration: 1.34s; }
+
+/* line 810, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-grid-beat > div:nth-child(6) {
+  -webkit-animation-delay: -0.15s;
+  animation-delay: -0.15s;
+  -webkit-animation-duration: 0.94s;
+  animation-duration: 0.94s; }
+
+/* line 815, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-grid-beat > div:nth-child(7) {
+  -webkit-animation-delay: -0.12s;
+  animation-delay: -0.12s;
+  -webkit-animation-duration: 1.2s;
+  animation-duration: 1.2s; }
+
+/* line 820, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-grid-beat > div:nth-child(8) {
+  -webkit-animation-delay: 0.01s;
+  animation-delay: 0.01s;
+  -webkit-animation-duration: 0.82s;
+  animation-duration: 0.82s; }
+
+/* line 825, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-grid-beat > div:nth-child(9) {
+  -webkit-animation-delay: 0.32s;
+  animation-delay: 0.32s;
+  -webkit-animation-duration: 1.19s;
+  animation-duration: 1.19s; }
+
+/* line 830, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-grid-beat > div {
+  background-color: #fff;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  margin: 2px;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  display: inline-block;
+  float: left;
+  -webkit-animation-name: ball-grid-beat;
+  animation-name: ball-grid-beat;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-delay: 0;
+  animation-delay: 0; }
+
+@-webkit-keyframes ball-grid-pulse {
+  /* line 848, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+
+  /* line 852, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  50% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    opacity: 0.7; }
+
+  /* line 857, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1; } }
+
+@keyframes ball-grid-pulse {
+  /* line 863, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+
+  /* line 867, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  50% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    opacity: 0.7; }
+
+  /* line 872, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1; } }
+
+/* line 877, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-grid-pulse {
+  width: 57px; }
+
+/* line 879, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-grid-pulse > div:nth-child(1) {
+  -webkit-animation-delay: -0.06s;
+  animation-delay: -0.06s;
+  -webkit-animation-duration: 0.72s;
+  animation-duration: 0.72s; }
+
+/* line 884, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-grid-pulse > div:nth-child(2) {
+  -webkit-animation-delay: 0.25s;
+  animation-delay: 0.25s;
+  -webkit-animation-duration: 1.02s;
+  animation-duration: 1.02s; }
+
+/* line 889, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-grid-pulse > div:nth-child(3) {
+  -webkit-animation-delay: -0.17s;
+  animation-delay: -0.17s;
+  -webkit-animation-duration: 1.28s;
+  animation-duration: 1.28s; }
+
+/* line 894, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-grid-pulse > div:nth-child(4) {
+  -webkit-animation-delay: 0.48s;
+  animation-delay: 0.48s;
+  -webkit-animation-duration: 1.42s;
+  animation-duration: 1.42s; }
+
+/* line 899, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-grid-pulse > div:nth-child(5) {
+  -webkit-animation-delay: 0.31s;
+  animation-delay: 0.31s;
+  -webkit-animation-duration: 1.45s;
+  animation-duration: 1.45s; }
+
+/* line 904, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-grid-pulse > div:nth-child(6) {
+  -webkit-animation-delay: 0.03s;
+  animation-delay: 0.03s;
+  -webkit-animation-duration: 1.18s;
+  animation-duration: 1.18s; }
+
+/* line 909, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-grid-pulse > div:nth-child(7) {
+  -webkit-animation-delay: 0.46s;
+  animation-delay: 0.46s;
+  -webkit-animation-duration: 0.87s;
+  animation-duration: 0.87s; }
+
+/* line 914, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-grid-pulse > div:nth-child(8) {
+  -webkit-animation-delay: 0.78s;
+  animation-delay: 0.78s;
+  -webkit-animation-duration: 1.45s;
+  animation-duration: 1.45s; }
+
+/* line 919, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-grid-pulse > div:nth-child(9) {
+  -webkit-animation-delay: 0.45s;
+  animation-delay: 0.45s;
+  -webkit-animation-duration: 1.06s;
+  animation-duration: 1.06s; }
+
+/* line 924, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-grid-pulse > div {
+  background-color: #fff;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  margin: 2px;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  display: inline-block;
+  float: left;
+  -webkit-animation-name: ball-grid-pulse;
+  animation-name: ball-grid-pulse;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-delay: 0;
+  animation-delay: 0; }
+
+@-webkit-keyframes ball-spin-fade-loader {
+  /* line 942, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  50% {
+    opacity: 0.3;
+    -webkit-transform: scale(0.4);
+    transform: scale(0.4); }
+
+  /* line 947, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+
+@keyframes ball-spin-fade-loader {
+  /* line 953, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  50% {
+    opacity: 0.3;
+    -webkit-transform: scale(0.4);
+    transform: scale(0.4); }
+
+  /* line 958, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+
+/* line 963, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-spin-fade-loader {
+  position: relative; }
+
+/* line 965, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-spin-fade-loader > div:nth-child(1) {
+  top: 25px;
+  left: 0;
+  -webkit-animation: ball-spin-fade-loader 1s 0s infinite linear;
+  animation: ball-spin-fade-loader 1s 0s infinite linear; }
+
+/* line 970, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-spin-fade-loader > div:nth-child(2) {
+  top: 17.04545px;
+  left: 17.04545px;
+  -webkit-animation: ball-spin-fade-loader 1s 0.12s infinite linear;
+  animation: ball-spin-fade-loader 1s 0.12s infinite linear; }
+
+/* line 975, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-spin-fade-loader > div:nth-child(3) {
+  top: 0;
+  left: 25px;
+  -webkit-animation: ball-spin-fade-loader 1s 0.24s infinite linear;
+  animation: ball-spin-fade-loader 1s 0.24s infinite linear; }
+
+/* line 980, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-spin-fade-loader > div:nth-child(4) {
+  top: -17.04545px;
+  left: 17.04545px;
+  -webkit-animation: ball-spin-fade-loader 1s 0.36s infinite linear;
+  animation: ball-spin-fade-loader 1s 0.36s infinite linear; }
+
+/* line 985, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-spin-fade-loader > div:nth-child(5) {
+  top: -25px;
+  left: 0;
+  -webkit-animation: ball-spin-fade-loader 1s 0.48s infinite linear;
+  animation: ball-spin-fade-loader 1s 0.48s infinite linear; }
+
+/* line 990, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-spin-fade-loader > div:nth-child(6) {
+  top: -17.04545px;
+  left: -17.04545px;
+  -webkit-animation: ball-spin-fade-loader 1s 0.6s infinite linear;
+  animation: ball-spin-fade-loader 1s 0.6s infinite linear; }
+
+/* line 995, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-spin-fade-loader > div:nth-child(7) {
+  top: 0;
+  left: -25px;
+  -webkit-animation: ball-spin-fade-loader 1s 0.72s infinite linear;
+  animation: ball-spin-fade-loader 1s 0.72s infinite linear; }
+
+/* line 1000, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-spin-fade-loader > div:nth-child(8) {
+  top: 17.04545px;
+  left: -17.04545px;
+  -webkit-animation: ball-spin-fade-loader 1s 0.84s infinite linear;
+  animation: ball-spin-fade-loader 1s 0.84s infinite linear; }
+
+/* line 1005, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-spin-fade-loader > div {
+  background-color: #fff;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  margin: 2px;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  position: absolute; }
+
+@-webkit-keyframes ball-spin-loader {
+  /* line 1016, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  75% {
+    opacity: 0.2; }
+
+  /* line 1019, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    opacity: 1; } }
+
+@keyframes ball-spin-loader {
+  /* line 1023, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  75% {
+    opacity: 0.2; }
+
+  /* line 1026, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    opacity: 1; } }
+
+/* line 1029, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-spin-loader {
+  position: relative; }
+
+/* line 1031, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-spin-loader > span:nth-child(1) {
+  top: 45px;
+  left: 0;
+  -webkit-animation: ball-spin-loader 2s 0.9s infinite linear;
+  animation: ball-spin-loader 2s 0.9s infinite linear; }
+
+/* line 1036, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-spin-loader > span:nth-child(2) {
+  top: 30.68182px;
+  left: 30.68182px;
+  -webkit-animation: ball-spin-loader 2s 1.8s infinite linear;
+  animation: ball-spin-loader 2s 1.8s infinite linear; }
+
+/* line 1041, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-spin-loader > span:nth-child(3) {
+  top: 0;
+  left: 45px;
+  -webkit-animation: ball-spin-loader 2s 2.7s infinite linear;
+  animation: ball-spin-loader 2s 2.7s infinite linear; }
+
+/* line 1046, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-spin-loader > span:nth-child(4) {
+  top: -30.68182px;
+  left: 30.68182px;
+  -webkit-animation: ball-spin-loader 2s 3.6s infinite linear;
+  animation: ball-spin-loader 2s 3.6s infinite linear; }
+
+/* line 1051, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-spin-loader > span:nth-child(5) {
+  top: -45px;
+  left: 0;
+  -webkit-animation: ball-spin-loader 2s 4.5s infinite linear;
+  animation: ball-spin-loader 2s 4.5s infinite linear; }
+
+/* line 1056, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-spin-loader > span:nth-child(6) {
+  top: -30.68182px;
+  left: -30.68182px;
+  -webkit-animation: ball-spin-loader 2s 5.4s infinite linear;
+  animation: ball-spin-loader 2s 5.4s infinite linear; }
+
+/* line 1061, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-spin-loader > span:nth-child(7) {
+  top: 0;
+  left: -45px;
+  -webkit-animation: ball-spin-loader 2s 6.3s infinite linear;
+  animation: ball-spin-loader 2s 6.3s infinite linear; }
+
+/* line 1066, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-spin-loader > span:nth-child(8) {
+  top: 30.68182px;
+  left: -30.68182px;
+  -webkit-animation: ball-spin-loader 2s 7.2s infinite linear;
+  animation: ball-spin-loader 2s 7.2s infinite linear; }
+
+/* line 1071, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-spin-loader > div {
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background: green; }
+
+@-webkit-keyframes ball-zig {
+  /* line 1081, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  33% {
+    -webkit-transform: translate(-15px, -30px);
+    transform: translate(-15px, -30px); }
+
+  /* line 1085, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  66% {
+    -webkit-transform: translate(15px, -30px);
+    transform: translate(15px, -30px); }
+
+  /* line 1089, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0); } }
+
+@keyframes ball-zig {
+  /* line 1094, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  33% {
+    -webkit-transform: translate(-15px, -30px);
+    transform: translate(-15px, -30px); }
+
+  /* line 1098, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  66% {
+    -webkit-transform: translate(15px, -30px);
+    transform: translate(15px, -30px); }
+
+  /* line 1102, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0); } }
+
+@-webkit-keyframes ball-zag {
+  /* line 1107, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  33% {
+    -webkit-transform: translate(15px, 30px);
+    transform: translate(15px, 30px); }
+
+  /* line 1111, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  66% {
+    -webkit-transform: translate(-15px, 30px);
+    transform: translate(-15px, 30px); }
+
+  /* line 1115, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0); } }
+
+@keyframes ball-zag {
+  /* line 1120, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  33% {
+    -webkit-transform: translate(15px, 30px);
+    transform: translate(15px, 30px); }
+
+  /* line 1124, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  66% {
+    -webkit-transform: translate(-15px, 30px);
+    transform: translate(-15px, 30px); }
+
+  /* line 1128, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0); } }
+
+/* line 1132, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-zig-zag {
+  position: relative;
+  -webkit-transform: translate(-15px, -15px);
+  -ms-transform: translate(-15px, -15px);
+  transform: translate(-15px, -15px); }
+
+/* line 1137, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-zig-zag > div {
+  background-color: #fff;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  margin: 2px;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  position: absolute;
+  margin-left: 15px;
+  top: 30px;
+  left: 30px; }
+
+/* line 1149, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-zig-zag > div:first-child {
+  -webkit-animation: ball-zig 0.7s 0s infinite linear;
+  animation: ball-zig 0.7s 0s infinite linear; }
+
+/* line 1152, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-zig-zag > div:last-child {
+  -webkit-animation: ball-zag 0.7s 0s infinite linear;
+  animation: ball-zag 0.7s 0s infinite linear; }
+
+@-webkit-keyframes ball-zig-deflect {
+  /* line 1157, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  17% {
+    -webkit-transform: translate(-15px, -30px);
+    transform: translate(-15px, -30px); }
+
+  /* line 1161, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  34% {
+    -webkit-transform: translate(15px, -30px);
+    transform: translate(15px, -30px); }
+
+  /* line 1165, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  50% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0); }
+
+  /* line 1169, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  67% {
+    -webkit-transform: translate(15px, -30px);
+    transform: translate(15px, -30px); }
+
+  /* line 1173, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  84% {
+    -webkit-transform: translate(-15px, -30px);
+    transform: translate(-15px, -30px); }
+
+  /* line 1177, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0); } }
+
+@keyframes ball-zig-deflect {
+  /* line 1182, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  17% {
+    -webkit-transform: translate(-15px, -30px);
+    transform: translate(-15px, -30px); }
+
+  /* line 1186, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  34% {
+    -webkit-transform: translate(15px, -30px);
+    transform: translate(15px, -30px); }
+
+  /* line 1190, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  50% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0); }
+
+  /* line 1194, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  67% {
+    -webkit-transform: translate(15px, -30px);
+    transform: translate(15px, -30px); }
+
+  /* line 1198, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  84% {
+    -webkit-transform: translate(-15px, -30px);
+    transform: translate(-15px, -30px); }
+
+  /* line 1202, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0); } }
+
+@-webkit-keyframes ball-zag-deflect {
+  /* line 1207, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  17% {
+    -webkit-transform: translate(15px, 30px);
+    transform: translate(15px, 30px); }
+
+  /* line 1211, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  34% {
+    -webkit-transform: translate(-15px, 30px);
+    transform: translate(-15px, 30px); }
+
+  /* line 1215, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  50% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0); }
+
+  /* line 1219, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  67% {
+    -webkit-transform: translate(-15px, 30px);
+    transform: translate(-15px, 30px); }
+
+  /* line 1223, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  84% {
+    -webkit-transform: translate(15px, 30px);
+    transform: translate(15px, 30px); }
+
+  /* line 1227, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0); } }
+
+@keyframes ball-zag-deflect {
+  /* line 1232, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  17% {
+    -webkit-transform: translate(15px, 30px);
+    transform: translate(15px, 30px); }
+
+  /* line 1236, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  34% {
+    -webkit-transform: translate(-15px, 30px);
+    transform: translate(-15px, 30px); }
+
+  /* line 1240, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  50% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0); }
+
+  /* line 1244, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  67% {
+    -webkit-transform: translate(-15px, 30px);
+    transform: translate(-15px, 30px); }
+
+  /* line 1248, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  84% {
+    -webkit-transform: translate(15px, 30px);
+    transform: translate(15px, 30px); }
+
+  /* line 1252, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0); } }
+
+/* line 1256, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-zig-zag-deflect {
+  position: relative;
+  -webkit-transform: translate(-15px, -15px);
+  -ms-transform: translate(-15px, -15px);
+  transform: translate(-15px, -15px); }
+
+/* line 1261, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-zig-zag-deflect > div {
+  background-color: #fff;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  margin: 2px;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  position: absolute;
+  margin-left: 15px;
+  top: 30px;
+  left: 30px; }
+
+/* line 1273, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-zig-zag-deflect > div:first-child {
+  -webkit-animation: ball-zig-deflect 1.5s 0s infinite linear;
+  animation: ball-zig-deflect 1.5s 0s infinite linear; }
+
+/* line 1276, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.ball-zig-zag-deflect > div:last-child {
+  -webkit-animation: ball-zag-deflect 1.5s 0s infinite linear;
+  animation: ball-zag-deflect 1.5s 0s infinite linear; }
+
+/**
+ * Lines
+ */
+@-webkit-keyframes line-scale {
+  /* line 1284, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  0% {
+    -webkit-transform: scaley(1);
+    transform: scaley(1); }
+
+  /* line 1288, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  50% {
+    -webkit-transform: scaley(0.4);
+    transform: scaley(0.4); }
+
+  /* line 1292, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    -webkit-transform: scaley(1);
+    transform: scaley(1); } }
+
+@keyframes line-scale {
+  /* line 1296, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  0% {
+    -webkit-transform: scaley(1);
+    transform: scaley(1); }
+
+  /* line 1300, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  50% {
+    -webkit-transform: scaley(0.4);
+    transform: scaley(0.4); }
+
+  /* line 1304, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    -webkit-transform: scaley(1);
+    transform: scaley(1); } }
+
+/* line 1308, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.line-scale > div:nth-child(1) {
+  -webkit-animation: line-scale 1s 0.1s infinite cubic-bezier(.2, .68, .18, 1.08);
+  animation: line-scale 1s 0.1s infinite cubic-bezier(.2, .68, .18, 1.08); }
+
+/* line 1311, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.line-scale > div:nth-child(2) {
+  -webkit-animation: line-scale 1s 0.2s infinite cubic-bezier(.2, .68, .18, 1.08);
+  animation: line-scale 1s 0.2s infinite cubic-bezier(.2, .68, .18, 1.08); }
+
+/* line 1314, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.line-scale > div:nth-child(3) {
+  -webkit-animation: line-scale 1s 0.3s infinite cubic-bezier(.2, .68, .18, 1.08);
+  animation: line-scale 1s 0.3s infinite cubic-bezier(.2, .68, .18, 1.08); }
+
+/* line 1317, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.line-scale > div:nth-child(4) {
+  -webkit-animation: line-scale 1s 0.4s infinite cubic-bezier(.2, .68, .18, 1.08);
+  animation: line-scale 1s 0.4s infinite cubic-bezier(.2, .68, .18, 1.08); }
+
+/* line 1320, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.line-scale > div:nth-child(5) {
+  -webkit-animation: line-scale 1s 0.5s infinite cubic-bezier(.2, .68, .18, 1.08);
+  animation: line-scale 1s 0.5s infinite cubic-bezier(.2, .68, .18, 1.08); }
+
+/* line 1323, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.line-scale > div {
+  background-color: #fff;
+  width: 4px;
+  height: 35px;
+  border-radius: 2px;
+  margin: 2px;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  display: inline-block; }
+
+@-webkit-keyframes line-scale-party {
+  /* line 1334, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+
+  /* line 1338, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  50% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5); }
+
+  /* line 1342, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+
+@keyframes line-scale-party {
+  /* line 1347, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+
+  /* line 1351, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  50% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5); }
+
+  /* line 1355, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+
+/* line 1359, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.line-scale-party > div:nth-child(1) {
+  -webkit-animation-delay: 0.77s;
+  animation-delay: 0.77s;
+  -webkit-animation-duration: 1.26s;
+  animation-duration: 1.26s; }
+
+/* line 1364, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.line-scale-party > div:nth-child(2) {
+  -webkit-animation-delay: 0.29s;
+  animation-delay: 0.29s;
+  -webkit-animation-duration: 0.43s;
+  animation-duration: 0.43s; }
+
+/* line 1369, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.line-scale-party > div:nth-child(3) {
+  -webkit-animation-delay: 0.28s;
+  animation-delay: 0.28s;
+  -webkit-animation-duration: 1.01s;
+  animation-duration: 1.01s; }
+
+/* line 1374, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.line-scale-party > div:nth-child(4) {
+  -webkit-animation-delay: 0.74s;
+  animation-delay: 0.74s;
+  -webkit-animation-duration: 0.73s;
+  animation-duration: 0.73s; }
+
+/* line 1379, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.line-scale-party > div {
+  background-color: #fff;
+  width: 4px;
+  height: 35px;
+  border-radius: 2px;
+  margin: 2px;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  display: inline-block;
+  -webkit-animation-name: line-scale-party;
+  animation-name: line-scale-party;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-delay: 0;
+  animation-delay: 0; }
+
+@-webkit-keyframes line-scale-pulse-out {
+  /* line 1396, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  0% {
+    -webkit-transform: scaley(1);
+    transform: scaley(1); }
+
+  /* line 1400, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  50% {
+    -webkit-transform: scaley(0.4);
+    transform: scaley(0.4); }
+
+  /* line 1404, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    -webkit-transform: scaley(1);
+    transform: scaley(1); } }
+
+@keyframes line-scale-pulse-out {
+  /* line 1409, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  0% {
+    -webkit-transform: scaley(1);
+    transform: scaley(1); }
+
+  /* line 1413, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  50% {
+    -webkit-transform: scaley(0.4);
+    transform: scaley(0.4); }
+
+  /* line 1417, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    -webkit-transform: scaley(1);
+    transform: scaley(1); } }
+
+/* line 1421, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.line-scale-pulse-out > div {
+  background-color: #fff;
+  width: 4px;
+  height: 35px;
+  border-radius: 2px;
+  margin: 2px;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  display: inline-block;
+  -webkit-animation: line-scale-pulse-out 0.9s 0s infinite cubic-bezier(.85, .25, .37, .85);
+  animation: line-scale-pulse-out 0.9s 0s infinite cubic-bezier(.85, .25, .37, .85); }
+
+/* line 1432, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.line-scale-pulse-out > div:nth-child(2), .line-scale-pulse-out > div:nth-child(4) {
+  -webkit-animation-delay: 0.2s !important;
+  animation-delay: 0.2s !important; }
+
+/* line 1435, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.line-scale-pulse-out > div:nth-child(1), .line-scale-pulse-out > div:nth-child(5) {
+  -webkit-animation-delay: 0.4s !important;
+  animation-delay: 0.4s !important; }
+
+@-webkit-keyframes line-scale-pulse-out-rapid {
+  /* line 1440, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  0% {
+    -webkit-transform: scaley(1);
+    transform: scaley(1); }
+
+  /* line 1444, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  80% {
+    -webkit-transform: scaley(0.3);
+    transform: scaley(0.3); }
+
+  /* line 1448, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  90% {
+    -webkit-transform: scaley(1);
+    transform: scaley(1); } }
+
+@keyframes line-scale-pulse-out-rapid {
+  /* line 1453, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  0% {
+    -webkit-transform: scaley(1);
+    transform: scaley(1); }
+
+  /* line 1457, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  80% {
+    -webkit-transform: scaley(0.3);
+    transform: scaley(0.3); }
+
+  /* line 1461, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  90% {
+    -webkit-transform: scaley(1);
+    transform: scaley(1); } }
+
+/* line 1465, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.line-scale-pulse-out-rapid > div {
+  background-color: #fff;
+  width: 4px;
+  height: 35px;
+  border-radius: 2px;
+  margin: 2px;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  display: inline-block;
+  -webkit-animation: line-scale-pulse-out-rapid 0.9s 0s infinite cubic-bezier(.11, .49, .38, .78);
+  animation: line-scale-pulse-out-rapid 0.9s 0s infinite cubic-bezier(.11, .49, .38, .78); }
+
+/* line 1476, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.line-scale-pulse-out-rapid > div:nth-child(2), .line-scale-pulse-out-rapid > div:nth-child(4) {
+  -webkit-animation-delay: 0.25s !important;
+  animation-delay: 0.25s !important; }
+
+/* line 1479, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.line-scale-pulse-out-rapid > div:nth-child(1), .line-scale-pulse-out-rapid > div:nth-child(5) {
+  -webkit-animation-delay: 0.5s !important;
+  animation-delay: 0.5s !important; }
+
+@-webkit-keyframes line-spin-fade-loader {
+  /* line 1484, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  50% {
+    opacity: 0.3; }
+
+  /* line 1487, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    opacity: 1; } }
+
+@keyframes line-spin-fade-loader {
+  /* line 1491, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  50% {
+    opacity: 0.3; }
+
+  /* line 1494, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    opacity: 1; } }
+
+/* line 1497, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.line-spin-fade-loader {
+  position: relative; }
+
+/* line 1499, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.line-spin-fade-loader > div:nth-child(1) {
+  top: 20px;
+  left: 0;
+  -webkit-animation: line-spin-fade-loader 1.2s 0.12s infinite ease-in-out;
+  animation: line-spin-fade-loader 1.2s 0.12s infinite ease-in-out; }
+
+/* line 1504, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.line-spin-fade-loader > div:nth-child(2) {
+  top: 13.63636px;
+  left: 13.63636px;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: line-spin-fade-loader 1.2s 0.24s infinite ease-in-out;
+  animation: line-spin-fade-loader 1.2s 0.24s infinite ease-in-out; }
+
+/* line 1512, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.line-spin-fade-loader > div:nth-child(3) {
+  top: 0;
+  left: 20px;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  -webkit-animation: line-spin-fade-loader 1.2s 0.36s infinite ease-in-out;
+  animation: line-spin-fade-loader 1.2s 0.36s infinite ease-in-out; }
+
+/* line 1520, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.line-spin-fade-loader > div:nth-child(4) {
+  top: -13.63636px;
+  left: 13.63636px;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-animation: line-spin-fade-loader 1.2s 0.48s infinite ease-in-out;
+  animation: line-spin-fade-loader 1.2s 0.48s infinite ease-in-out; }
+
+/* line 1528, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.line-spin-fade-loader > div:nth-child(5) {
+  top: -20px;
+  left: 0;
+  -webkit-animation: line-spin-fade-loader 1.2s 0.6s infinite ease-in-out;
+  animation: line-spin-fade-loader 1.2s 0.6s infinite ease-in-out; }
+
+/* line 1533, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.line-spin-fade-loader > div:nth-child(6) {
+  top: -13.63636px;
+  left: -13.63636px;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: line-spin-fade-loader 1.2s 0.72s infinite ease-in-out;
+  animation: line-spin-fade-loader 1.2s 0.72s infinite ease-in-out; }
+
+/* line 1541, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.line-spin-fade-loader > div:nth-child(7) {
+  top: 0;
+  left: -20px;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  -webkit-animation: line-spin-fade-loader 1.2s 0.84s infinite ease-in-out;
+  animation: line-spin-fade-loader 1.2s 0.84s infinite ease-in-out; }
+
+/* line 1549, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.line-spin-fade-loader > div:nth-child(8) {
+  top: 13.63636px;
+  left: -13.63636px;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-animation: line-spin-fade-loader 1.2s 0.96s infinite ease-in-out;
+  animation: line-spin-fade-loader 1.2s 0.96s infinite ease-in-out; }
+
+/* line 1557, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.line-spin-fade-loader > div {
+  background-color: #fff;
+  width: 4px;
+  height: 35px;
+  border-radius: 2px;
+  margin: 2px;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  position: absolute;
+  width: 5px;
+  height: 15px; }
+
+/**
+ * Misc
+ */
+@-webkit-keyframes triangle-skew-spin {
+  /* line 1573, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  25% {
+    -webkit-transform: perspective(100px) rotateX(180deg) rotateY(0);
+    transform: perspective(100px) rotateX(180deg) rotateY(0); }
+
+  /* line 1577, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  50% {
+    -webkit-transform: perspective(100px) rotateX(180deg) rotateY(180deg);
+    transform: perspective(100px) rotateX(180deg) rotateY(180deg); }
+
+  /* line 1581, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  75% {
+    -webkit-transform: perspective(100px) rotateX(0) rotateY(180deg);
+    transform: perspective(100px) rotateX(0) rotateY(180deg); }
+
+  /* line 1585, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    -webkit-transform: perspective(100px) rotateX(0) rotateY(0);
+    transform: perspective(100px) rotateX(0) rotateY(0); } }
+
+@keyframes triangle-skew-spin {
+  /* line 1589, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  25% {
+    -webkit-transform: perspective(100px) rotateX(180deg) rotateY(0);
+    transform: perspective(100px) rotateX(180deg) rotateY(0); }
+
+  /* line 1593, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  50% {
+    -webkit-transform: perspective(100px) rotateX(180deg) rotateY(180deg);
+    transform: perspective(100px) rotateX(180deg) rotateY(180deg); }
+
+  /* line 1597, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  75% {
+    -webkit-transform: perspective(100px) rotateX(0) rotateY(180deg);
+    transform: perspective(100px) rotateX(0) rotateY(180deg); }
+
+  /* line 1601, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    -webkit-transform: perspective(100px) rotateX(0) rotateY(0);
+    transform: perspective(100px) rotateX(0) rotateY(0); } }
+
+/* line 1605, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.triangle-skew-spin > div {
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid #fff;
+  -webkit-animation: triangle-skew-spin 3s 0s cubic-bezier(.09, .57, .49, .9) infinite;
+  animation: triangle-skew-spin 3s 0s cubic-bezier(.09, .57, .49, .9) infinite; }
+
+@-webkit-keyframes square-spin {
+  /* line 1617, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  25% {
+    -webkit-transform: perspective(100px) rotateX(180deg) rotateY(0);
+    transform: perspective(100px) rotateX(180deg) rotateY(0); }
+
+  /* line 1621, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  50% {
+    -webkit-transform: perspective(100px) rotateX(180deg) rotateY(180deg);
+    transform: perspective(100px) rotateX(180deg) rotateY(180deg); }
+
+  /* line 1625, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  75% {
+    -webkit-transform: perspective(100px) rotateX(0) rotateY(180deg);
+    transform: perspective(100px) rotateX(0) rotateY(180deg); }
+
+  /* line 1629, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    -webkit-transform: perspective(100px) rotateX(0) rotateY(0);
+    transform: perspective(100px) rotateX(0) rotateY(0); } }
+
+@keyframes square-spin {
+  /* line 1634, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  25% {
+    -webkit-transform: perspective(100px) rotateX(180deg) rotateY(0);
+    transform: perspective(100px) rotateX(180deg) rotateY(0); }
+
+  /* line 1638, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  50% {
+    -webkit-transform: perspective(100px) rotateX(180deg) rotateY(180deg);
+    transform: perspective(100px) rotateX(180deg) rotateY(180deg); }
+
+  /* line 1642, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  75% {
+    -webkit-transform: perspective(100px) rotateX(0) rotateY(180deg);
+    transform: perspective(100px) rotateX(0) rotateY(180deg); }
+
+  /* line 1646, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    -webkit-transform: perspective(100px) rotateX(0) rotateY(0);
+    transform: perspective(100px) rotateX(0) rotateY(0); } }
+
+/* line 1650, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.square-spin > div {
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  border: 1px solid red;
+  -webkit-animation: square-spin 3s 0s cubic-bezier(.09, .57, .49, .9) infinite;
+  animation: square-spin 3s 0s cubic-bezier(.09, .57, .49, .9) infinite; }
+
+@-webkit-keyframes rotate_pacman_half_up {
+  /* line 1661, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  0% {
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg); }
+
+  /* line 1665, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  50% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); }
+
+  /* line 1669, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg); } }
+
+@keyframes rotate_pacman_half_up {
+  /* line 1674, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  0% {
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg); }
+
+  /* line 1678, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  50% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); }
+
+  /* line 1682, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg); } }
+
+@-webkit-keyframes rotate_pacman_half_down {
+  /* line 1687, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  0% {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg); }
+
+  /* line 1691, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  50% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 1695, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg); } }
+
+@keyframes rotate_pacman_half_down {
+  /* line 1700, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  0% {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg); }
+
+  /* line 1704, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  50% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 1708, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg); } }
+
+@-webkit-keyframes pacman-balls {
+  /* line 1713, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  75% {
+    opacity: 0.7; }
+
+  /* line 1716, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    -webkit-transform: translate(-100px, -6.25px);
+    transform: translate(-100px, -6.25px); } }
+
+@keyframes pacman-balls {
+  /* line 1721, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  75% {
+    opacity: 0.7; }
+
+  /* line 1724, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    -webkit-transform: translate(-100px, -6.25px);
+    transform: translate(-100px, -6.25px); } }
+
+/* line 1728, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.pacman {
+  position: relative; }
+
+/* line 1730, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.pacman > div:nth-child(2) {
+  -webkit-animation: pacman-balls 1s 0s infinite linear;
+  animation: pacman-balls 1s 0s infinite linear; }
+
+/* line 1733, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.pacman > div:nth-child(3) {
+  -webkit-animation: pacman-balls 1s 0.33s infinite linear;
+  animation: pacman-balls 1s 0.33s infinite linear; }
+
+/* line 1736, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.pacman > div:nth-child(4) {
+  -webkit-animation: pacman-balls 1s 0.66s infinite linear;
+  animation: pacman-balls 1s 0.66s infinite linear; }
+
+/* line 1739, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.pacman > div:nth-child(5) {
+  -webkit-animation: pacman-balls 1s 0.99s infinite linear;
+  animation: pacman-balls 1s 0.99s infinite linear; }
+
+/* line 1742, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.pacman > div:first-of-type {
+  width: 0px;
+  height: 0px;
+  border-right: 25px solid transparent;
+  border-top: 25px solid #fff;
+  border-left: 25px solid #fff;
+  border-bottom: 25px solid #fff;
+  border-radius: 25px;
+  -webkit-animation: rotate_pacman_half_up 0.5s 0s infinite;
+  animation: rotate_pacman_half_up 0.5s 0s infinite; }
+
+/* line 1752, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.pacman > div:nth-child(2) {
+  width: 0px;
+  height: 0px;
+  border-right: 25px solid transparent;
+  border-top: 25px solid #fff;
+  border-left: 25px solid #fff;
+  border-bottom: 25px solid #fff;
+  border-radius: 25px;
+  -webkit-animation: rotate_pacman_half_down 0.5s 0s infinite;
+  animation: rotate_pacman_half_down 0.5s 0s infinite;
+  margin-top: -50px; }
+
+/* line 1763, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.pacman > div:nth-child(3), .pacman > div:nth-child(4), .pacman > div:nth-child(5), .pacman > div:nth-child(6) {
+  background-color: #fff;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  margin: 2px;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  -webkit-transform: translate(0, -6.25px);
+  -ms-transform: translate(0, -6.25px);
+  transform: translate(0, -6.25px);
+  top: 25px;
+  left: 100px; }
+
+@-webkit-keyframes cube-transition {
+  /* line 1779, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  25% {
+    -webkit-transform: translateX(50px) scale(0.5) rotate(-90deg);
+    transform: translateX(50px) scale(0.5) rotate(-90deg); }
+
+  /* line 1783, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  50% {
+    -webkit-transform: translate(50px, 50px) rotate(-180deg);
+    transform: translate(50px, 50px) rotate(-180deg); }
+
+  /* line 1787, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  75% {
+    -webkit-transform: translateY(50px) scale(0.5) rotate(-270deg);
+    transform: translateY(50px) scale(0.5) rotate(-270deg); }
+
+  /* line 1791, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg); } }
+
+@keyframes cube-transition {
+  /* line 1796, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  25% {
+    -webkit-transform: translateX(50px) scale(0.5) rotate(-90deg);
+    transform: translateX(50px) scale(0.5) rotate(-90deg); }
+
+  /* line 1800, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  50% {
+    -webkit-transform: translate(50px, 50px) rotate(-180deg);
+    transform: translate(50px, 50px) rotate(-180deg); }
+
+  /* line 1804, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  75% {
+    -webkit-transform: translateY(50px) scale(0.5) rotate(-270deg);
+    transform: translateY(50px) scale(0.5) rotate(-270deg); }
+
+  /* line 1808, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg); } }
+
+/* line 1812, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.cube-transition {
+  position: relative;
+  -webkit-transform: translate(-25px, -25px);
+  -ms-transform: translate(-25px, -25px);
+  transform: translate(-25px, -25px); }
+
+/* line 1817, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.cube-transition > div {
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  -webkit-animation: cube-transition 1.6s 0s infinite ease-in-out;
+  animation: cube-transition 1.6s 0s infinite ease-in-out; }
+
+/* line 1828, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.cube-transition > div:last-child {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s; }
+
+@-webkit-keyframes spin-rotate {
+  /* line 1833, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 1837, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  50% {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg); }
+
+  /* line 1841, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@keyframes spin-rotate {
+  /* line 1846, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 1850, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  50% {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg); }
+
+  /* line 1854, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+/* line 1858, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.semi-circle-spin {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  overflow: hidden; }
+
+/* line 1863, /Users/Connor/Repos/personal/personal-website/bower/loaders.css/loaders.css */
+.semi-circle-spin > div {
+  position: absolute;
+  border-width: 0px;
+  border-radius: 100%;
+  -webkit-animation: spin-rotate 0.6s 0s infinite linear;
+  animation: spin-rotate 0.6s 0s infinite linear;
+  background-image: -webkit-linear-gradient(transparent 0%, transparent 70%, #fff 30%, #fff 100%);
+  background-image: linear-gradient(transparent 0%, transparent 70%, #fff 30%, #fff 100%);
+  width: 100%;
+  height: 100%; }
+
