@@ -1,0 +1,24 @@
+{
+  "name": "canvas-baidu-map",
+  "version": "0.1.0",
+  "description": "基于百度地图的路径分析平台",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kunkkaliu/canvas-baidu-map.git"
+  },
+  "keywords": [
+    "map",
+    "canvas",
+    "OD"
+  ],
+  "author": "kunkkaliu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kunkkaliu/canvas-baidu-map/issues"
+  },
+  "homepage": "https://github.com/kunkkaliu/canvas-baidu-map#readme"
+}

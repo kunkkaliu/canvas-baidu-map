@@ -14,13 +14,12 @@
  */
 
 function MapMask(options) {
-    // BMap.Overlay.apply(this);
+    BMap.Overlay.apply(this);
     this.options = options || {};
     this.initElement();
     this._map = options.map;
 }
 
-//类继承也可以用下面的方式
 MapMask.prototype = new BMap.Overlay();
 MapMask.prototype.constructor = MapMask;
 

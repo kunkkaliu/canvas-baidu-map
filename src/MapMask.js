@@ -4,6 +4,7 @@
 
 (function (domain) {
     var MapMask = function (options) {
+        BMap.Overlay.apply(this, arguments);
         this.options = options || {};
         this.initElement();
         this._map = options.map;
