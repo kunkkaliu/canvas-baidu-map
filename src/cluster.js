@@ -13,7 +13,7 @@ $(function () {
     "vectorMapLevel": 19,
     "enableMapClick": false
   });
-  // map.setMinZoom(5);
+  map.setMinZoom(5);
   map.getContainer().style.background = "#081734";
 
   // 地图自定义样式
@@ -153,58 +153,17 @@ $(function () {
   map.centerAndZoom(options.center, options.zoom); // 初始化地图,设置中心点坐标和地图级别
   map.enableScrollWheelZoom(); //启用滚轮放大缩小
 
-  var mercatorProjection = map.getMapType().getProjection();
+  const markers = [];
 
-  //用来显示路线层用的
-  var baseCanvas = new window.canvasBaiduMap.MapMask({
-    map: map,
-    elementTag: "canvas"
+  for (let i = 0; i < citys.length; i++) {
+    const item = citys[i];
+    const lnglat = item['lnglat'];
+    markers.push(new BMap.Marker(new BMap.Point(lnglat[0], lnglat[1])));
+  }
+
+  const mcIns = new BMapLib.MarkerClusterer(map, {
+    markers,
+    gridSize: 200,
+    maxZoom: 18,
   });
-  baseCanvas.show();
-
-  var ctx = baseCanvas.getContainer().getContext("2d");
-  baseCanvas.addEventListener('draw', drawMarks);
-
-  var type = 'mercator1';
-
-  function getX(x, nwMc, zoomUnit) {
-    return type === 'mercator' ? (x - nwMc.x) / zoomUnit : (x - nwMc.x);
-  }
-
-  function getY(y, nwMc, zoomUnit) {
-    return type === 'mercator' ? (nwMc.y - y) / zoomUnit : y - nwMc.y;
-  }
-
-  function drawMarks() {
-    ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
-    if (citys) {
-      ctx.fillStyle = "rgba(230, 204, 23, 1)";
-      var zoomUnit = Math.pow(2, 18 - map.getZoom());
-
-      var mcCenter = null;
-      var nwMc = null;
-
-      if (type === 'mercator') {
-        mcCenter = mercatorProjection.lngLatToPoint(map.getCenter());
-        nwMc = new BMap.Pixel(mcCenter.x - (ctx.canvas.width / 2) * zoomUnit, mcCenter.y + (ctx.canvas.height / 2) * zoomUnit); //左上角墨卡托坐标
-      } else {
-        mcCenter = map.pointToPixel(map.getCenter());
-        nwMc = new BMap.Pixel(mcCenter.x - ctx.canvas.width / 2, mcCenter.y - ctx.canvas.height / 2); // 左上角像素坐标 固定为{x: 0, y: 0}
-      }
- 
-      for (var i = 0; i < citys.length; i++) {
-        var item = citys[i];
-        var lnglat = item['lnglat'];
-        var currentPixel = null;
-        if (type === 'mercator') {
-          currentPixel = mercatorProjection.lngLatToPoint(new BMap.Point(lnglat[0], lnglat[1]));
-        } else {
-          currentPixel = map.pointToPixel(new BMap.Point(lnglat[0], lnglat[1]));
-        }
-        ctx.fillRect(getX(currentPixel.x, nwMc, zoomUnit) - 1, getY(currentPixel.y, nwMc, zoomUnit) - 1, options.arcSize, options.arcSize);
-      }
-    }
-  }
-
-  drawMarks();
 });

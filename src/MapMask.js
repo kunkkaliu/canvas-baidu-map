@@ -20,12 +20,16 @@
     element.width = size.width;
     element.height = size.height;
     element.style.cssText = "position: absolute;" + "left: 0;" + "top: 0;";
+    element.style.width = size.width;
+    element.style.height = size.height;
+    element.style.backgroundColor = 'rgba(255, 0, 0, 0.3)';
     map.getPanes().labelPane.appendChild(this.element);
     var me = this;
     map.addEventListener('resize', function (e) {
-      var size = e.size;
-      element.width = size.width;
-      element.height = size.height;
+      element.width = e.size.width;
+      element.height = e.size.height;
+      element.style.width = e.size.width;
+      element.style.height = e.size.height;
       me.draw();
     });
     return this.element;
@@ -33,12 +37,16 @@
 
   MapMask.prototype.draw = function () {
     var map = this._map;
-    var bounds = map.getBounds();
-    var sw = bounds.getSouthWest();
-    var ne = bounds.getNorthEast();
-    var pixel = map.pointToOverlayPixel(new BMap.Point(sw.lng, ne.lat));
-    this.element.style.left = pixel.x + "px";
-    this.element.style.top = pixel.y + "px";
+    var size = map.getSize();
+    // var bounds = map.getBounds();
+    // var sw = bounds.getSouthWest();
+    // var ne = bounds.getNorthEast();
+    // var pixel = map.pointToOverlayPixel(new BMap.Point(sw.lng, ne.lat));
+    // this.element.style.left = pixel.x + "px";
+    // this.element.style.top = pixel.y + "px";
+    var pixel = map.pointToOverlayPixel(map.getCenter());
+    this.element.style.left = pixel.x - size.width / 2 + "px";
+    this.element.style.top = pixel.y - size.height / 2 + "px";
     this.dispatchEvent('draw');
   }
 
